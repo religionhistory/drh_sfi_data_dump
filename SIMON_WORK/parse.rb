@@ -67,30 +67,64 @@ file.close
 
 params_neghalf=[7.2120216019e-09, -3.3539216379e-01, 1.6657075990e-01, -2.6304824788e-01, 6.1906601400e-02, -2.0516200355e-01, 9.5849292039e-08, 1.1604318115e-01, -4.9566083740e-07, 2.9759242896e-01, 3.0710855142e-01, 2.9086155817e-01, 1.8865009399e-01, 3.5802823105e-02, 5.0983603113e-01, -3.3444980372e-02, 2.8537259590e-01, -1.7738617409e-08, 3.5637865218e-02, 2.4930207609e-02, 4.4275155178e-01, 5.8481058354e-02, 1.2430287043e-01, 2.5269116370e-01, 1.4180809554e-01, 2.3257945057e-02, -2.1477853827e-01, 4.2277148908e-01, 1.2903140069e-01, 3.6803217357e-01, -2.2780576310e-01, -3.1870406315e-01, -2.6966296451e-01, 2.5889567804e-02, 1.1445833173e-01, 4.8516064486e-02, 3.1247203635e-01, -2.9773505051e-01, -1.1700063137e-01, 8.6002551742e-01, 3.7032225397e-08, 3.6667635907e-08, -4.4138606122e-01, 6.4048812545e-10, 2.6058676745e-02, 4.5625802557e-09, -1.4591290145e-01, -9.3461106516e-02, 3.0768112539e-03, 3.2867603374e-08, 9.8972515664e-02, -7.6275995367e-02, -1.6327596351e-01, -2.2397805687e-01, 6.7906456880e-02, 1.6293316124e-08, 1.7029243412e-01, -5.4979410757e-02, 1.9664247330e-01, 5.8491030074e-02, -2.5493195673e-03, -4.6827514837e-01, 1.6588931721e-08, 8.6649702421e-04, -5.0273042923e-01, 1.1639196978e-01, 2.8993705678e-01, 3.4081784767e-01, -3.9193378835e-03, 7.3260154821e-01, -1.2986208371e-01, 1.5432357620e-02, 7.2686454356e-01, -2.7656765679e-01, -1.5443670908e-01, -8.3324851502e-01, -4.1923812787e-08, 9.4255149809e-01, 6.0064407694e-01, 1.7324211548e-02, -7.9821573215e-08, -4.3033208101e-01, 2.5738801520e-01, 9.5241231729e-01, 2.2576083551e-07, 5.0568814035e-01, -2.4320575732e-02, 7.1850328899e-09, -3.7089096926e-01, 3.4793817627e-01, -1.9777254442e-09, 2.4542244965e-01, 4.7796624590e-08, 4.3405001746e-01, -5.2594720400e-08, 1.1216326894e+00, 2.6361197477e-08, 3.3979774116e-01, 5.6909200235e-07, 6.0890832715e-01, -3.4417722225e-01, 7.2431626960e-01, 5.2335439867e-01, 7.1199378618e-02, 6.2265716954e-02, -7.8301775200e-08, 1.2719557758e-02, -1.4791614574e-07, -1.3502992653e-07, -6.7180018995e-08, -3.2014651798e-02, 8.6220900670e-08, 1.1578878971e-01, 1.0246255917e-07, 3.8953115888e-01, 7.3174915513e-08, -2.2406053655e-01, -3.3710561707e-01, 4.6460900785e-01, 5.5476503557e-08]
 
+`../../humanities-glass/MPF_CMU/mpf -z supreme_high_gods.dat_params.dat 15`
+
+file=File.new("supreme_high_gods.dat_params.dat_probs.dat", 'r')
+prob=Hash.new
+file.each_line { |i|
+  prob[i.split(" ")[0]]=i.split(" ")[-1].to_f
+}; file.close
+
+corr=Hash.new
 n=15
 count=0
 lookup=Hash.new
 0.upto(n-2) { |i|
   (i+1).upto(n-1) { |j|
     lookup[[i,j]]=params_neghalf[count]
+    one_one=prob.keys.select { |unit| unit[i] == "1" and unit[j] == "1" }.collect { |i| prob[i] }.sum
+    one_zero=prob.keys.select { |unit| unit[i] == "1" and unit[j] == "0" }.collect { |i| prob[i] }.sum
+    zero_one=prob.keys.select { |unit| unit[i] == "0" and unit[j] == "1" }.collect { |i| prob[i] }.sum
+    zero_zero=prob.keys.select { |unit| unit[i] == "0" and unit[j] == "0" }.collect { |i| prob[i] }.sum
+    corr[[i,j]]=one_one-one_zero-zero_one+zero_zero
     count += 1
   }
 }
 n.times { |i|
   lookup[i]=params_neghalf[count+i]
+  corr[i]=prob.keys.select { |unit| unit[i] == "1" }.collect { |i| prob[i] }.sum - prob.keys.select { |unit| unit[i] == "0" }.collect { |i| prob[i] }.sum
 }
 
 lookup.keys.select { |i|
   i.class != Array
 }.sort { |i,j| lookup[j].abs <=> lookup[i].abs }[0..19].each { |i|
-  print "#{i} (#{qhash[qlist[i]]}: #{lookup[i]}\n"
+  print "#{i} (#{qhash[qlist[i]]}: #{lookup[i]} (#{corr[i]})\n"
 }
-
 
 lookup.keys.select { |i|
   i.class == Array
 }.sort { |i,j| lookup[j].abs <=> lookup[i].abs }[0..19].each { |i|
-  print "#{i} (#{qhash[qlist[i[0]]]} and #{qhash[qlist[i[1]]]}): #{lookup[i]}\n"
+  print "#{i} (#{qhash[qlist[i[0]]]} and #{qhash[qlist[i[1]]]}): #{lookup[i]} #{corr[i]}\n"
+}
+
+file=File.new("edges.csv", 'w')
+file.write("Source,Target,Weight,Sign\n")
+lookup.keys.select { |i|
+  i.class == Array and lookup[i].abs > 1e-3
+}.each { |i|
+  file.write("#{i[0]},#{i[1]},#{lookup[i].abs},#{lookup[i] < 0 ? -1 : 1}\n")
+}
+file.close
+file=File.new("nodes.csv", 'w')
+file.write("Id,Label\n")
+n.times { |i|
+  file.write("#{i},#{i}\n")
+}; file.close
+
+lookup.keys.select { |i|
+  i.class == Array
+}.sort { |i,j| corr[j].abs <=> corr[i].abs }[0..19].each { |i|
+  print "#{i} (#{qhash[qlist[i[0]]]} and #{qhash[qlist[i[1]]]}): #{lookup[i]} #{corr[i]}\n"
 }
 
 lookup.keys.select { |i|
