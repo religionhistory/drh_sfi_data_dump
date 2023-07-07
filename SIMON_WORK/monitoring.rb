@@ -13,7 +13,7 @@ end
 
 # 21 questions
 # 390 groups
-file=File.new("../supreme_high_gods.csv", 'r'); ans=CSV.parse(file.read); file.close
+file=File.new("../monitoring_questions.csv", 'r'); ans=CSV.parse(file.read); file.close
 
 qhash=Hash.new
 
@@ -48,7 +48,7 @@ religion.keys.each { |i|
   }
 }
 
-file=File.new("../SIMON_PROCESSED/processed_supreme_high_gods.csv", 'w')
+file=File.new("../SIMON_PROCESSED/processed_monitoring.csv", 'w')
 str="Entry ID,Religion Name,Region ID,Date Range,"+qlist.collect { |i| i }.join(",")+"\n"
 religion.keys.each { |i|
   entry=i.split("_")[0].gsub(/[^0-9]/,"")
@@ -67,7 +67,7 @@ religion.keys.select { |i|
   religion.delete(i)
 }
 
-file=File.new("supreme_high_gods.dat", 'w')
+file=File.new("monitoring.dat", 'w')
 file.write("#{religion.keys.length}\n#{qlist.length}\n")
 religion.keys.each { |i|
   file.write(qlist.collect { |j| religion[i][j] == "Yes" ? "1" : (religion[i][j] == "No" ? "0" : "X") }.join("")+" 1.0\n")
