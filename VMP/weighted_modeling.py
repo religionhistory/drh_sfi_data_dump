@@ -35,17 +35,22 @@ from sklearn.decomposition import PCA
 #### NB: we should include the data that we do not have weights for ####
 #### we can just give it "mean" weight ####
 # load preprocessed data
-monit_wide=pd.read_csv('data/monitoring_weighted_preprocessing.csv')
+monit_wide=pd.read_csv('processed/weight_collapsed.csv')
 
 # get the questions
 questions=monit_wide.columns
-questions=[int(x) for x in questions if x not in ['Entry ID', 'World Region', 'Date', 'weight']]
+questions=[int(x) for x in questions if x not in ['Religion Name', 'Religion ID', 'Region ID',
+                                                  'Date Range', 'Entry ID', 'World Region', 'Date', 'weight']]
 
 # get the "weight" column
 sum_entries=monit_wide.groupby('Entry ID')['weight'].sum().reset_index(name='weight')
-monit_wide=monit_wide.drop(columns=['weight', 'Date', 'World Region'])
+monit_wide=monit_wide.drop(columns=['Religion Name', 'Region ID', 'Date Range', 'weight'])
 monit_wide=monit_wide.drop_duplicates()
 monit_wide=monit_wide.merge(sum_entries, on='Entry ID', how='inner')
+
+# code X as nan
+questions=[str(x) for x in questions]
+monit_wide[questions]=monit_wide[questions].replace("X", np.nan)
 
 # load the unweighted data
 entries_with_weight= monit_wide['Entry ID'].unique()
@@ -113,11 +118,6 @@ sns.clustermap(df_corr,
 
 # Show the plot
 plt.show()
-
-
-
-# Compute the correlation matrix
-correlation_matrix = df.corr()
 
 # Create a clustermap
 sns.clustermap(correlation_matrix, 

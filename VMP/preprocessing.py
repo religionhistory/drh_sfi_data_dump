@@ -9,6 +9,8 @@ import numpy as np
 # load data 
 metadata=pd.read_csv('data/metadata.csv')
 monitoring_questions=pd.read_csv('data/monitoring_questions.csv')
+metadata=metadata.drop(columns=['NGA'])
+metadata=metadata.drop_duplicates()
 
 ### preprocessing ###
 # remove weird question
@@ -57,5 +59,31 @@ monit_wide=monit_consistent.pivot(index='Entry ID',
 monit_wide=pd.merge(monit_wide, metadata, on='Entry ID', how='inner')
 monit_wide['weight']=1.0
 monit_wide['weight']=monit_wide.groupby(['Date', 'World Region'])['weight'].transform(lambda x: x / x.sum())
-monit_wide=monit_wide.drop(columns='NGA')
 monit_wide.to_csv('data/monitoring_weighted_preprocessing.csv', index=False)
+
+### new dataset (n of features) ###
+# exclude the ones with nan
+complete=20
+monitoring_complete=monitoring_group[monitoring_group['Answer values'].notna()]
+complete_records=monitoring_complete.groupby('Entry ID').size().reset_index(name='count')
+complete_records=complete_records[complete_records['count'] == complete]
+monitoring_complete=monitoring_complete.merge(complete_records, on='Entry ID', how='inner')
+
+# find entries that have more than one answer to a question
+duplicates=monitoring_complete.groupby(['Entry ID', 'Standardized Question ID']).size().reset_index(name='count')
+duplicates=duplicates[duplicates['count'] > 1]
+duplicates=duplicates['Entry ID'].unique()
+monitoring_complete=monitoring_complete[~monitoring_complete['Entry ID'].isin(duplicates)]
+
+# make something non-wide
+monitoring_long=monitoring_complete.merge(metadata, on='Entry ID', how='inner')
+monitoring_long.to_csv('data/complete_long.csv', index=False)
+
+# make something wide
+complete_wide=monitoring_complete.pivot(index='Entry ID',
+                                        columns='Standardized Question ID',
+                                        values='Answer values').reset_index()
+
+# now merge with metadata
+complete_wide=pd.merge(complete_wide, metadata, on='Entry ID', how='inner')
+complete_wide.to_csv('data/complete_meta.csv', index=False)

@@ -51,6 +51,8 @@ from sklearn.decomposition import PCA
 
 # load preprocessed data
 monit_consistent=pd.read_csv('data/monitoring_basic_preprocessing.csv')
+monit_consistent=pd.read_csv('../SIMON_PROCESSED/processed_monitoring.csv')
+monit_consistent=monit_consistent.sort_values(['Entry ID'], ascending=True)
 
 # pivot
 monit_wide=monit_consistent.pivot(index='Entry ID', 
@@ -58,6 +60,7 @@ monit_wide=monit_consistent.pivot(index='Entry ID',
                                  values='Answers').reset_index()
 
 # take out the matrix
+columns_to_drop=['Entry ID', 'Entry name', 'Date', 'World Region', 'NGA']
 monit_matrix=monit_wide.drop(columns=['Entry ID']).to_numpy()
 
 ### imputation ###
