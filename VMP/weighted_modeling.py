@@ -119,6 +119,14 @@ sns.clustermap(df_corr,
 # Show the plot
 plt.show()
 
+#### have not done the below yet #####
+
+
+
+
+
+
+
 # Create a clustermap
 sns.clustermap(correlation_matrix, 
                annot=False, 

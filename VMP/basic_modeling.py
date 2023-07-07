@@ -51,7 +51,7 @@ from sklearn.decomposition import PCA
 
 # load preprocessed data
 monit_consistent=pd.read_csv('data/monitoring_basic_preprocessing.csv')
-monit_consistent=pd.read_csv('../SIMON_PROCESSED/processed_monitoring.csv')
+#monit_consistent=pd.read_csv('../SIMON_PROCESSED/processed_monitoring.csv')
 monit_consistent=monit_consistent.sort_values(['Entry ID'], ascending=True)
 
 # pivot

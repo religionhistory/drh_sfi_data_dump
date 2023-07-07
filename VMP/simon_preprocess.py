@@ -6,7 +6,7 @@ d = pd.read_csv('../SIMON_PROCESSED/processed_monitoring.csv')
 d['weight']=1.0
 d=d.sort_values('Entry ID')
 metadata = pd.read_csv('../metadata.csv')
-
+metadata=metadata.drop(columns=['NGA']).drop_duplicates()
 # metadata
 entry_simon = d['Entry ID'].unique() 
 entry_meta = metadata['Entry ID'].unique()
@@ -18,7 +18,7 @@ d_meta.to_csv('processed/with_metadata.csv', index=False)
 
 # aggregate
 sum_entries=d_meta.groupby('Entry ID')['weight'].sum().reset_index(name='weight')
-monit_wide=d_meta.drop(columns=['weight', 'Date', 'World Region', 'NGA'])
+monit_wide=d_meta.drop(columns=['weight', 'Date', 'World Region'])
 monit_wide=monit_wide.drop_duplicates()
 monit_wide=monit_wide.merge(sum_entries, on='Entry ID', how='inner')
 monit_wide.to_csv('processed/weight_collapsed.csv', index=False)
