@@ -2,13 +2,15 @@ require 'csv'
 
 # 21 questions
 # 390 groups
-file=File.new("monitoring_questions.csv", 'r'); ans=CSV.parse(file.read); file.close
+file=File.new("../monitoring_questions.csv", 'r'); ans=CSV.parse(file.read); file.close
 
 qhash=Hash.new
 
 religion=Hash.new
+entry_hash=Hash.new
 ans[1..-1].each { |i|
   entry=i[13]
+  entry_hash[i[13]]=i[12].gsub(",", "")
   date_range=i[15].gsub(" ", "")
   region=i[22]
   sector=i[18]
@@ -21,6 +23,7 @@ ans[1..-1].each { |i|
   end
   qhash[i[0]]=i[1]
 };1
+qlist=religion.keys.collect { |i| religion[i].keys }.flatten; qlist=(qlist & qlist).sort
 religion.keys.each { |i|
   (qlist-religion[i].keys).each { |j|
     religion[i][j]=["No answer at all"]
@@ -35,20 +38,18 @@ religion.keys.each { |i|
 }
 
 file=File.new("processed_monitoring.csv", 'w')
-str="Entry ID,Region ID,Date Range,"+qlist.collect { |i| i }.join(",")+"\n"
+str="Entry ID,Religion Name,Region ID,Date Range,"+qlist.collect { |i| i }.join(",")+"\n"
 religion.keys.each { |i|
   entry=i.split("_")[0].gsub(/[^0-9]/,"")
   region=i.split("_")[2].gsub(/[^0-9]/,"")
   date=i.split("_")[1]
-  str += "#{entry},#{region},#{date},"
+  str += "#{entry},#{entry_hash[entry]},#{region},#{date},"
   str += religion[i].keys.collect { |j|
     religion[i][j] == "Yes" ? "1" : (religion[i][j] == "No" ? "0" : "X")
   }.join(",")+"\n"
 }
 file.write(str); file.close
 
-
-qlist=religion.keys.collect { |i| religion[i].keys }.flatten; qlist=(qlist & qlist).sort
 religion.keys.select { |i|
   qlist.collect { |j| religion[i][j] == "Yes" ? "1" : (religion[i][j] == "No" ? "0" : "X") }.join("").scan(/X/).length > 5
 }.each { |i|
