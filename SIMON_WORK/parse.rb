@@ -10,7 +10,7 @@ religion=Hash.new
 entry_hash=Hash.new
 ans[1..-1].each { |i|
   entry=i[13]
-  entry_hash[i[13]]=i[12].gsub(",", "")
+  entry_hash[i[13]]=i[12].gsub(/[^A-Za-z\ 0-9\-]/, "")
   date_range=i[15].gsub(" ", "")
   region=i[22]
   sector=i[18]
@@ -37,7 +37,7 @@ religion.keys.each { |i|
   }
 }
 
-file=File.new("processed_monitoring.csv", 'w')
+file=File.new("../SIMON_PROCESSED/processed_monitoring.csv", 'w')
 str="Entry ID,Religion Name,Region ID,Date Range,"+qlist.collect { |i| i }.join(",")+"\n"
 religion.keys.each { |i|
   entry=i.split("_")[0].gsub(/[^0-9]/,"")

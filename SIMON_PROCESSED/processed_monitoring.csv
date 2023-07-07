@@ -4,15 +4,15 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 180,Chinese Folk Religion,10,350BCE-200CE,0,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 185,Shinnyo-en,86,1936CE-2013CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X,X,X
 189,Israelite Religion,44,1200BCE-400BCE,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X,X,X,X,X,X
-193,Fijian Religion (contemporary),32,2000CE-2013CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X
-190,Sri Lankan Buddhism (1948-Present),488,1948CE-2015CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+193,Fijian Religion contemporary,32,2000CE-2013CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X
+190,Sri Lankan Buddhism 1948-Present,488,1948CE-2015CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 195,Shakta Religion,43,500CE-1100CE,1,1,1,1,1,1,1,1,1,1,1,X,X,X,X,X,X,X,X,X
-212,Warring States (China) Religion,467,481BCE-206BCE,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,X,X
-196,Pauline Christianity (ca. 45-60 CE),479,45CE-60CE,1,0,1,1,1,1,1,1,1,X,X,X,X,1,X,X,1,1,1,X
+212,Warring States China Religion,467,481BCE-206BCE,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,X,X
+196,Pauline Christianity ca 45-60 CE,479,45CE-60CE,1,0,1,1,1,1,1,1,1,X,X,X,X,1,X,X,1,1,1,X
 230,Religion in Mesopotamia,494,3300BCE-539BCE,1,1,X,0,0,1,1,1,0,1,0,0,X,0,X,1,1,0,X,0
 231,Roman private religion,540,600BCE-202BCE,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 217,Roman private religion,498,202BCE-44BCE,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0
-249,Tyva Republic (Animism-Totemism-Shamanism),52,1990CE-2013CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+249,Tyva Republic Animism-Totemism-Shamanism,52,1990CE-2013CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 255,Talismanic Religion,130,200BCE-500CE,1,1,1,1,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X
 263,Irish Catholicism,554,2000CE-2015CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 300,Israelite Religion,44,1200BCE-515BCE,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
@@ -20,56 +20,56 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 224,Old Norse Fornsed,31,600CE-1100CE,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 174,Matthew-James-Didache Movement,352,50CE-160CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
 284,Yolngu religion,567,3500BCE-2015CE,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0
-358,16th-17th c. Gauḍīya Vaiṣṇava Tradition,620,1500CE-1700CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X,X
+358,16th-17th c Gauya Vaiava Tradition,620,1500CE-1700CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X,X
 361,Classical Greek Religion,588,500BCE-300BCE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
 390,Dasara,654,1610CE-2016CE,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,1,1,0,0,1
-387,Ahmadi; Ahmadiyya Muslim Jama'at; Ahmadiya,652,1889CE-2016CE,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
-374,Non-dual Śaiva Tantra,496,800CE-1600CE,1,1,X,X,X,1,X,X,X,X,X,X,X,X,X,1,1,X,X,1
-381,Sikhism: Guru Nanak to Guru Arjan,481,1469CE-1606CE,1,0,1,1,1,1,1,1,1,1,1,X,1,1,1,0,0,1,1,1
+387,Ahmadi Ahmadiyya Muslim Jamaat Ahmadiya,652,1889CE-2016CE,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
+374,Non-dual aiva Tantra,496,800CE-1600CE,1,1,X,X,X,1,X,X,X,X,X,X,X,X,X,1,1,X,X,1
+381,Sikhism Guru Nanak to Guru Arjan,481,1469CE-1606CE,1,0,1,1,1,1,1,1,1,1,1,X,1,1,1,0,0,1,1,1
 383,Varkaris,649,1200CE-1700CE,1,1,1,1,1,1,1,1,0,0,1,0,1,0,1,0,0,0,0,0
 386,Kapingamarangi,650,1877CE-1877CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 400,Singaporean Mega-Churches,381,1980CE-2015CE,0,1,1,1,1,1,1,1,1,1,0,0,1,0,1,1,1,1,1,0
-392,Sikhism: Guru Hargobind to Guru Gobind Singh,652,1606CE-1708CE,1,0,1,1,1,1,1,1,1,1,1,X,1,1,1,0,0,0,1,1
+392,Sikhism Guru Hargobind to Guru Gobind Singh,652,1606CE-1708CE,1,0,1,1,1,1,1,1,1,1,1,X,1,1,1,0,0,0,1,1
 389,Iban traditional religion,656,1840CE-1970CE,0,1,0,0,0,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 416,Edinoverie,669,1800CE-1918CE,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0
 420,Swaminarayan Sampraday,677,1800CE-2017CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X
 422,Demeter Cult,50,1500BCE-396CE,0,1,1,1,1,1,X,1,X,X,0,X,X,0,X,1,1,0,X,X
-419,The Worship of Jagannath in Puri (Odisha),673,1970CE-2016CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
+419,The Worship of Jagannath in Puri Odisha,673,1970CE-2016CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
 435,Mongol Religion,685,1206CE-1368CE,0,1,1,0,0,1,0,1,1,X,X,X,X,X,X,X,X,X,X,X
-441,Worshipers of Śītalā,690,1690CE-2017CE,1,X,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,0,1,1
+441,Worshipers of tal,690,1690CE-2017CE,1,X,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,0,1,1
 442,Donatism,691,311CE-427CE,1,0,1,1,1,1,1,1,1,X,X,1,1,1,X,1,1,1,X,0
 456,The Essenes,485,165BCE-75CE,1,1,1,1,1,1,1,1,1,X,X,X,1,X,1,1,1,X,1,1
 455,Lan Na Buddhism,703,1292CE-1558CE,1,1,1,1,1,1,1,1,0,1,0,1,1,1,0,1,1,1,0,X
 470,Archaic Spartan Cults,719,800BCE-500BCE,1,1,1,X,1,1,X,1,X,X,1,X,X,0,X,1,1,0,X,X
 476,Cham Bani,724,1000CE-2015CE,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
 478,Early Indian Buddhism,726,450BCE-1CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-485,Sámi pre-Christian religion,730,500CE-1500CE,0,1,X,X,X,X,X,X,X,0,X,X,X,X,X,1,1,0,X,X
-486,Church of Jesus Christ of Latter-day Saints (early),731,1820CE-2017CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+485,Smi pre-Christian religion,730,500CE-1500CE,0,1,X,X,X,X,X,X,X,0,X,X,X,X,X,1,1,0,X,X
+486,Church of Jesus Christ of Latter-day Saints early,731,1820CE-2017CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 493,Krishna Worship in North India - Modern Period,739,1858CE-2017CE,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 483,Northern Irish Roman Catholics,720,2015CE-2016CE,1,1,1,1,1,1,1,1,1,1,1,0,1,X,1,1,1,1,X,0
 484,Northern Irish Protestants,720,2015CE-2016CE,1,1,1,1,1,1,1,1,1,1,1,0,1,X,1,0,0,1,X,0
-520,Cham Ahiér,762,1600CE-2015CE,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1
+520,Cham Ahir,762,1600CE-2015CE,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1
 526,Hmong Christianity,766,1900CE-2018CE,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
-525,Church of Jesus Christ of Latter-day Saints (modern),660,1951CE-2018CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+525,Church of Jesus Christ of Latter-day Saints modern,660,1951CE-2018CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 565,Fellahin,803,1925CE-1960CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 571,Abkhaz,807,1855CE-1890CE,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 574,Konso,810,1920CE-1967CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 576,Kuy traditional religions,811,1000CE-2018CE,X,1,1,1,X,X,1,1,1,X,1,X,1,X,1,1,1,0,X,X
 578,Gond,815,1875CE-1910CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-581,Mentawai (Rereiket),818,1970CE-2018CE,1,1,1,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X
+581,Mentawai Rereiket,818,1970CE-2018CE,1,1,1,0,0,0,0,0,0,0,1,X,X,X,X,X,X,X,X,X
 588,Nyakyusa,822,1905CE-1940CE,1,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 592,Veerashaivas,826,1200CE-2018CE,0,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 534,Roman Imperial Cult,132,42BCE-518CE,X,1,1,1,1,1,X,1,X,1,X,X,1,X,1,1,0,X,0,1
 586,Kelantanese Thai Religion,821,1900CE-2017CE,1,1,0,0,0,0,X,1,1,1,0,0,X,0,0,1,1,0,0,0
 472,Karma Kagyu or Kamtsang Kagyu,96,1110CE-2017CE,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1
-227,Hindu Goddess Worship in Northwest India—Modern Period,481,1980CE-2000CE,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,X
+227,Hindu Goddess Worship in Northwest IndiaModern Period,481,1980CE-2000CE,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,X
 256,Etruscan Religion,498,10BCE-1BCE,X,X,X,X,X,1,1,X,X,X,X,X,X,1,1,1,X,X,X,X
 342,Jesus Associations and the Synoptic Gospels,6,50CE-150CE,0,1,1,1,1,1,1,1,1,1,1,0,X,X,X,X,X,X,X,X
 572,Trobrianders,808,1890CE-1930CE,0,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 592,Veerashaivas,826,11CE-12CE,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,X
-443,Tyva (Buddhism),52,1634CE-2017CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+443,Tyva Buddhism,52,1634CE-2017CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 444,Sursurunga,692,1920CE-2017CE,0,0,0,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-453,Guangzhou (Buddhism),701,1985CE-2017CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+453,Guangzhou Buddhism,701,1985CE-2017CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 457,Kananga - Pentacostal,704,2013CE-2017CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 458,Tanna - Christian,705,1869CE-2017CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 459,Tanna - Kastom,705,1100BCE-2017CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
@@ -102,14 +102,14 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 771,Muscular Christianity,975,1762CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1
 775,Jainism,492,900BCE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,1
 781,Syria,981,381CE-500CE,0,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-783,Upper Egypt: Archaic/Early Dynastic Period,983,3150BCE-2686BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-784,Upper Egypt: Old Kingdom,983,2686BCE-2181BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-785,Upper Egypt: First Intermediate Period,983,2181BCE-2055BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-786,Upper Egypt: Middle Kingdom,983,2055BCE-1650BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+783,Upper Egypt ArchaicEarly Dynastic Period,983,3150BCE-2686BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+784,Upper Egypt Old Kingdom,983,2686BCE-2181BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+785,Upper Egypt First Intermediate Period,983,2181BCE-2055BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+786,Upper Egypt Middle Kingdom,983,2055BCE-1650BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 788,The Late Bronze Age City-State of Ugarit,984,1500BCE-1200BCE,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
-787,Upper Egypt: Second Intermediate Period,983,1650BCE-1550BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+787,Upper Egypt Second Intermediate Period,983,1650BCE-1550BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 563,Gaddi a Hindu community of the Western Himalayas,797,1845CE-2018CE,1,1,1,1,1,1,1,1,0,1,1,0,1,0,0,1,1,0,0,1
-564,Tribal Christianity (and allied castes) in the Himalayas,799,1950CE-2018CE,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1
+564,Tribal Christianity and allied castes in the Himalayas,799,1950CE-2018CE,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1
 597,Confucianism - Eastern Zhou,467,600BCE-200BCE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,1,1,X,X,X,X
 598,Masai,833,1875CE-1915CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 600,Riffians,835,1900CE-1930CE,1,1,1,1,1,1,X,X,1,X,X,X,X,X,X,X,X,X,X,X
@@ -117,7 +117,7 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 608,Kurd,841,1926CE-1955CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 609,Tallensi,842,1915CE-1940CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 613,Maori,846,1800CE-1830CE,X,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-614,!Kung,847,1925CE-1960CE,0,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+614,Kung,847,1925CE-1960CE,0,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 626,Barama River Carib,859,1907CE-1935CE,0,1,0,0,0,0,0,X,X,X,X,X,X,X,X,X,X,X,X,X
 635,Ifugao,866,1890CE-1920CE,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 632,Local Religion at Selinous,864,650BCE-409BCE,1,1,1,1,1,0,0,1,0,0,0,X,X,0,1,1,1,0,0,1
@@ -131,57 +131,57 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 676,The Order of the Holy Trinity for the Redemption of Captives 1198-1500,900,1198CE-1500CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X
 680,Gujarati Mata Worshipers,677,1850CE-2019CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,0,1,1
 682,Lakher,910,1905CE-1935CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-807,British Isles I: Pre-Roman Britain,992,500BCE-43BCE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-808,British Isles II: Pre-Theodosian Roman Britain,992,43BCE-380CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-809,British Isles III: Pre-Theodosian Roman Britain Continued,992,43BCE-380CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-810,British Isles IV: Pre-Theodosian Roman Britain Continued,992,43BCE-380CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-811,British Isles V: Christian Roman Britain,992,380CE-500CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-814,British Isles VI: Christian Roman Britain,992,380CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-815,British Isles VII: Christian Roman Britain,992,380CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+807,British Isles I Pre-Roman Britain,992,500BCE-43BCE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+808,British Isles II Pre-Theodosian Roman Britain,992,43BCE-380CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+809,British Isles III Pre-Theodosian Roman Britain Continued,992,43BCE-380CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+810,British Isles IV Pre-Theodosian Roman Britain Continued,992,43BCE-380CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+811,British Isles V Christian Roman Britain,992,380CE-500CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+814,British Isles VI Christian Roman Britain,992,380CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+815,British Isles VII Christian Roman Britain,992,380CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 817,Early Medieval British Christianity,992,350CE-650CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-835,British Isles: Pre-Roman,992,500BCE-43CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-836,British Isles: Romano-British,992,43CE-500CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+835,British Isles Pre-Roman,992,500BCE-43CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+836,British Isles Romano-British,992,43CE-500CE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 842,American Evangelicalism,1011,1730CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0
 859,Valentinians,6,135CE-400CE,1,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0
 851,Sikhism in the United States,1018,1899CE-2020CE,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,1,1
-849,""Gaiwiio Religion"" ""Longhouse Religion"" or ""The Way of Handsome Lake"" of the Seneca Tribe,1016,1750CE-1850CE,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1
+849,Gaiwiio Religion Longhouse Religion or The Way of Handsome Lake of the Seneca Tribe,1016,1750CE-1850CE,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1
 870,Postsocialist Mongolian Buddhism,1032,1990CE-2020CE,1,1,1,1,1,X,X,1,X,X,X,X,1,X,X,1,1,0,X,X
-888,Céli Dé monks,1044,780CE-900CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+888,Cli D monks,1044,780CE-900CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
 887,Postsocialist Mongolian Shamanism,1043,1990CE-2020CE,1,1,1,1,1,X,1,1,X,X,X,X,1,X,X,1,1,0,X,X
 855,Middle-Class Migrant Muslims in the UAE,1021,1900CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
-896,Sannō Shintō,1050,800CE-1571CE,0,1,1,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,1,1
-899,Nahdlatul Ulama (NU),1053,1926CE-2020CE,1,1,1,1,1,1,0,1,1,1,X,0,1,1,1,1,1,1,0,1
-902,British Isles: Christian,992,300CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+896,Sann Shint,1050,800CE-1571CE,0,1,1,0,1,0,0,1,1,0,1,0,0,0,1,1,1,0,1,1
+899,Nahdlatul Ulama NU,1053,1926CE-2020CE,1,1,1,1,1,1,0,1,1,1,X,0,1,1,1,1,1,1,0,1
+902,British Isles Christian,992,300CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 860,Kimpa Vita,1025,1704CE-1706CE,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1,1,1,0,1,0
-904,Euboea/Central Macedonia: Nicaean-Chalcedonian Christianity,997,397CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-880,Egyptian Salafism (inluding North Africa and West Asia),1038,1870CE-2015CE,1,1,1,1,1,0,1,1,X,1,1,1,1,1,1,1,1,1,1,1
+904,EuboeaCentral Macedonia Nicaean-Chalcedonian Christianity,997,397CE-500CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+880,Egyptian Salafism inluding North Africa and West Asia,1038,1870CE-2015CE,1,1,1,1,1,0,1,1,X,1,1,1,1,1,1,1,1,1,1,1
 623,Diasporic American Hinduism,856,1965CE-2018CE,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,0,0,1
-886,Pushtimarg (The Path of Grace) in the UK and Gujarat,1042,1990CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+886,Pushtimarg The Path of Grace in the UK and Gujarat,1042,1990CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 879,Free Methodist Church,1103,1860CE-2020CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0
 873,The Branch Davidians,1035,1962CE-1993CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 914,Tariqa Shadhiliyya,1064,1258CE-2020CE,1,1,1,1,1,1,1,1,0,1,1,1,0,0,1,1,1,1,1,1
-911,Italy: Roman Catholic Christianity,991,1260CE-1302CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-917,British Isles: Predominantly Celtic Polytheism,992,500BCE-50BCE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-922,British Isles: Mixed Roman and British Polytheism,992,50BCE-400CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-923,British Isles: Introduction of Early Christianity through the End of Columban/Irish Christianity,992,200CE-700CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+911,Italy Roman Catholic Christianity,991,1260CE-1302CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+917,British Isles Predominantly Celtic Polytheism,992,500BCE-50BCE,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+922,British Isles Mixed Roman and British Polytheism,992,50BCE-400CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+923,British Isles Introduction of Early Christianity through the End of ColumbanIrish Christianity,992,200CE-700CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 869,Sichuan Esoteric Buddhist Cult,1031,855CE-1279CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,1,X
 928,The Ghost Dance Movement and the Lakota Sioux,1075,1860CE-1910CE,1,0,1,1,1,0,1,1,1,0,1,0,0,0,0,1,1,0,0,0
 933,Marcionites,1080,144CE-1000CE,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,0,0
 927,Zealots,485,0CE-74CE,1,1,1,1,1,1,X,1,1,X,1,1,1,X,1,1,1,0,1,X
-944,Mohyla's Ukrainian Church,331,1620CE-1700CE,1,1,1,X,1,1,1,1,1,1,X,1,1,X,1,1,1,1,X,X
+944,Mohylas Ukrainian Church,331,1620CE-1700CE,1,1,1,X,1,1,1,1,1,1,X,1,1,X,1,1,1,1,X,X
 934,Mongolian Buddhism during the Revolutionary Period,1081,1911CE-1940CE,1,1,1,1,1,X,1,1,X,X,X,X,1,X,X,1,1,1,X,X
 937,Vestal Virgins,872,800BCE-394CE,1,0,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,0,0,1
 941,Chan Buddhists in early Qing period,1087,1600CE-1700CE,1,1,1,1,1,1,1,1,X,0,1,X,1,1,1,1,1,0,X,X
 948,Christianity in Ephesus,1094,120CE-300CE,1,1,1,1,1,1,1,1,X,1,X,X,X,1,X,1,1,1,1,X
 953,Sachchai,1140,1975CE-2020CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,0
 943,Moravian Missionaries in Nunatsiavut,1091,1752CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-955,British Isles: Augustinian/Roman Christianity,992,600CE-800CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+955,British Isles AugustinianRoman Christianity,992,600CE-800CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 854,pre-Christian Irish,554,400BCE-900CE,1,1,0,0,0,0,1,1,0,0,0,1,X,0,0,1,X,0,1,0
-883,Catholics in the People's Republic of China (PRC),1132,1949CE-2020CE,1,1,0,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+883,Catholics in the Peoples Republic of China PRC,1132,1949CE-2020CE,1,1,0,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 942,African Methodist Episcopal Church,1095,1816CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 919,Catholicism in contemporary Croatia,1068,1995CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0
 891,Peruvian Mormons,1047,1956CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-960,Bön (Bon),1107,1000CE-2020CE,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,1,0,1,1
+960,Bn Bon,1107,1000CE-2020CE,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1,1,1,0,1,1
 940,Julio-Claudian Imperial Cult,132,31BCE-68CE,1,1,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,0,1
 894,Universal Fellowship of Metropolitan Community Churches,1049,1968CE-2020CE,1,0,1,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,1,0
 906,The Church of England,725,1963CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -192,35 +192,35 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 974,Greek Chalcedonian Christians Nicaea,1124,1204CE-1261CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0
 910,Christian Base Community movement,1062,1968CE-1998CE,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,0
 978,Indonesian Catholicism,1053,1500CE-2020CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X
-966,Naqshbandī Order Naqshbandī Tarīqa Naqshbandīyyah Khwājagān,1113,1318CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
+966,Naqshband Order Naqshband Tarqa Naqshbandyyah Khwjagn,1113,1318CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
 950,The Religious Society of Friends,1125,1652CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1
 921,Bhils,1070,1900CE-2020CE,1,1,1,1,0,1,1,1,0,1,1,0,1,0,1,1,1,0,X,0
-970,Cult of Isis (Mysteries of Isis),132,323BCE-500CE,1,1,1,1,1,1,X,1,1,1,1,1,1,X,1,1,1,1,X,1
+970,Cult of Isis Mysteries of Isis,132,323BCE-500CE,1,1,1,1,1,1,X,1,1,1,1,1,1,X,1,1,1,1,X,1
 977,Chishti Sufis,1127,1200CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1
-971,Gāṇapatya,1120,500CE-2020CE,1,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1
+971,Gapatya,1120,500CE-2020CE,1,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1
 976,Mising Community,1133,1187CE-2019CE,1,0,X,X,X,0,1,1,1,1,1,0,1,0,1,1,1,0,1,1
 965,Pachomian Monasticism,1112,323CE-548CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 929,Drikung Kagyu,1076,1143CE-2020CE,0,1,0,0,0,0,0,1,0,X,1,1,0,0,1,1,1,0,0,1
 973,The Sarna religion of the Oraons of Jharkhand,1136,1845CE-2019CE,1,1,0,0,0,1,0,1,1,1,1,1,1,0,1,1,1,0,0,1
 935,Nigerian Pentecostalism,1082,1910CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
-982,The Samaritans (Persian to early Roman periods),1138,500BCE-100CE,1,1,1,1,1,1,1,1,X,1,X,X,1,X,1,1,1,X,1,X
+982,The Samaritans Persian to early Roman periods,1138,500BCE-100CE,1,1,1,1,1,1,1,1,X,1,X,X,1,X,1,1,1,X,1,X
 926,Ladakhi Buddhism,1074,842CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 952,Ethiopian Jews,1104,1980CE-2020CE,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
 983,Tibetan and Himalayan Mundane and Landscape Cults,1107,600CE-2020CE,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1
-984,Calvinism (Early/Reformation),1139,1530CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0
+984,Calvinism EarlyReformation,1139,1530CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0
 987,Parsis Zoroastrians of India,1145,1600CE-2020CE,1,0,1,1,1,1,1,1,1,1,1,X,1,1,X,1,1,0,1,1
 980,Pure Land Buddhist Schools in Early Medieval Japan,1141,1175CE-1333CE,1,0,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,0,1
 841,Sa skya,1010,1073CE-2020CE,1,1,1,1,1,0,1,1,0,1,1,1,X,1,1,1,1,0,X,X
-852,Pre-Christian Religion / Paganism in Ireland,1019,500BCE-900CE,1,1,1,X,X,1,1,1,X,1,X,X,1,X,1,1,1,0,1,X
-993,Pontifex Maximus and Pontifices (Pontifical College),872,712BCE-380CE,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-994,Monastic Communities of Lower Egypt: Nitria Kellia Scetis,1150,330CE-470CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+852,Pre-Christian Religion  Paganism in Ireland,1019,500BCE-900CE,1,1,1,X,X,1,1,1,X,1,X,X,1,X,1,1,1,0,1,X
+993,Pontifex Maximus and Pontifices Pontifical College,872,712BCE-380CE,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+994,Monastic Communities of Lower Egypt Nitria Kellia Scetis,1150,330CE-470CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 995,Tamil Neo-Saivism,1151,1841CE-2020CE,0,1,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,1,1,X
 988,Churches of Christ- United States,1146,1832CE-2020CE,1,0,1,1,1,1,1,1,1,0,X,0,1,0,0,1,1,1,1,0
 997,Ancient Egypt - Early Dynastic Period,535,2950BCE-2670BCE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,1,1,0,X,X
 1006,Ancient Egypt - Old Kingdom,535,2670BCE-2168BCE,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
 1004,Religion in Roman Ostia,1158,200BCE-300CE,1,1,0,0,0,0,1,1,X,X,0,0,1,0,0,1,1,0,0,0
 1008,Ancient Egypt - First Intermediate Period,535,2168BCE-2010BCE,1,1,1,X,X,1,1,1,1,0,1,0,1,1,1,1,1,0,1,1
-1013,Estado da Índia Renegades in Deccan,1165,1510CE-1640CE,1,1,1,1,1,1,1,1,X,1,0,1,0,0,0,1,1,1,0,0
+1013,Estado da ndia Renegades in Deccan,1165,1510CE-1640CE,1,1,1,1,1,1,1,1,X,1,0,1,0,0,0,1,1,1,0,0
 1012,Inhabitants of Medieval Kurgus,383,550CE-1500CE,1,1,1,0,1,1,1,1,1,1,X,1,1,X,1,1,1,1,0,0
 1038,Sino-Muslims in Qing China,1183,1644CE-1911CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1041,Korean Catholicism,717,1600CE-2021CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
@@ -228,36 +228,36 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 1069,Religion at Deir el-Medina,1207,1504BCE-1069BCE,1,1,1,0,0,0,1,1,1,1,1,1,1,X,1,1,1,0,1,X
 1071,Digital Shinto Communities,1435,2001CE-2021CE,1,1,1,1,1,1,1,1,0,0,1,0,1,0,X,1,1,0,0,1
 1087,The Bogomils,1224,969CE-1400CE,1,1,1,1,1,1,X,1,X,1,1,X,X,0,1,1,1,1,0,X
-1083,Drukpa Kagyü School (Bhutan),1227,1625CE-2021CE,1,1,1,1,1,0,1,1,0,1,1,X,1,X,1,1,1,0,0,1
+1083,Drukpa Kagy School Bhutan,1227,1625CE-2021CE,1,1,1,1,1,0,1,1,0,1,1,X,1,X,1,1,1,0,0,1
 1037,Third Intermediate Period in Ancient Egypt,535,1100BCE-650BCE,1,1,1,X,X,1,1,1,X,X,X,X,1,1,1,1,1,X,1,1
 968,Anabaptist Mennonites in North America 1683-2021,1115,1683CE-2021CE,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0
 1108,Early Christianity and Monasticism in Egypt,1254,0CE-600CE,1,1,1,X,X,1,1,1,1,1,1,1,1,1,1,1,X,X,1,X
 1127,Anglican Church of Korea,1271,1890CE-2021CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1125,Ancient Egypt - the Ramesside Period,1269,1292BCE-1070BCE,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-1051,Religion at Tell el-Dab'a (ancient Avaris) in Ancient Egypt,1296,1960BCE-1550BCE,X,X,0,0,0,0,1,1,0,0,0,0,1,0,1,1,1,0,0,1
+1051,Religion at Tell el-Daba ancient Avaris in Ancient Egypt,1296,1960BCE-1550BCE,X,X,0,0,0,0,1,1,0,0,0,0,1,0,1,1,1,0,0,1
 1162,Lingbao dafa,1307,400CE-1400CE,1,1,X,X,X,X,1,1,X,X,X,X,X,1,X,X,1,1,X,X
 1129,Ancient Thessalians,1274,700BCE-476CE,1,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,0,0
-1178,Modern Mystery School (MMS),1322,1997CE-2021CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1178,Modern Mystery School MMS,1322,1997CE-2021CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1149,Christianity in Tang China,1297,618CE-906CE,1,1,X,1,0,1,1,1,1,X,1,1,1,1,1,1,1,1,1,1
-1136,The Fellowship of Goodness 同善社 (Tongshanshe),1280,1910CE-1951CE,1,X,X,X,X,X,1,X,X,X,X,X,1,X,X,X,X,X,X,0
+1136,The Fellowship of Goodness  Tongshanshe,1280,1910CE-1951CE,1,X,X,X,X,X,1,X,X,X,X,X,1,X,X,X,X,X,X,0
 794,Omaha,986,1840CE-1880CE,1,1,X,X,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X
 1180,Batak Traditional Religions,1325,1600CE-2020CE,1,1,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1,1,1,X
 1191,Religion in Greco-Roman Alexandria,1335,300BCE-300CE,1,X,X,X,X,X,X,1,1,0,X,X,0,X,0,1,1,1,X,1
 1192,Kaharingan,1336,1945CE-2021CE,1,1,1,1,1,1,1,1,X,1,1,0,1,X,1,1,1,1,1,1
-1196,K’iche’ (Quiché),1343,1910CE-1940CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
+1196,Kiche Quich,1343,1910CE-1940CE,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 1210,Mende,1355,1920CE-1950CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 1223,Toda,1370,1885CE-1910CE,X,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-1229,Three Self Patriotic Movement (TSPM),1132,1950CE-2021CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
-1189,Yādiya/Sam'al,1333,920BCE-713BCE,1,X,1,X,X,X,1,1,X,X,X,X,X,X,1,1,1,0,1,X
+1229,Three Self Patriotic Movement TSPM,1132,1950CE-2021CE,1,1,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,1
+1189,YdiyaSamal,1333,920BCE-713BCE,1,X,1,X,X,X,1,1,X,X,X,X,X,X,1,1,1,0,1,X
 1234,Ashanti,1382,1880CE-1910CE,1,1,1,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X
-1241,Taiping 太平 Movement,1388,1837CE-1866CE,1,0,1,1,1,1,1,1,1,1,1,X,X,X,1,1,1,1,1,X
+1241,Taiping  Movement,1388,1837CE-1866CE,1,0,1,1,1,1,1,1,1,1,1,X,X,X,1,1,1,1,1,X
 1227,Polytheistic Pre-Islamic South Arabia,1376,900BCE-360CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 1247,Exovedate,1393,1885CE-1885CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1258,Religion in Judah,1404,1000BCE-586BCE,1,1,1,X,X,1,1,1,1,1,1,X,1,1,1,1,1,0,1,X
-1263,Judean/Yehudite Colony at Elephantine (Persian period),1411,500BCE-399BCE,1,X,X,X,X,X,X,1,X,X,X,X,X,X,X,X,X,X,X,X
+1263,JudeanYehudite Colony at Elephantine Persian period,1411,500BCE-399BCE,1,X,X,X,X,X,X,1,X,X,X,X,X,X,X,X,X,X,X,X
 1268,Monotheistic Pre-Islamic South Arabia,1414,360CE-570CE,1,X,X,X,X,X,1,1,X,X,X,X,X,X,X,X,1,1,X,X
 1283,Butonese Muslims,1431,1500CE-2002CE,1,X,X,X,X,X,1,X,X,1,X,X,1,0,X,1,1,0,X,X
-1293,The Zapotec or Ben 'Zaa (The Cloud People),1444,2000BCE-2022CE,1,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,0
+1293,The Zapotec or Ben Zaa The Cloud People,1444,2000BCE-2022CE,1,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,0
 1295,Donatism,1446,311CE-600CE,1,X,1,1,1,1,1,1,1,1,1,X,1,1,1,1,1,1,1,X
 1284,Religion of Phoenicia,1432,1200BCE-330BCE,1,X,X,X,X,1,1,1,X,X,X,X,X,X,X,1,1,0,X,X
 1309,Circumcellions,526,315CE-500CE,1,1,1,1,0,1,1,1,X,1,X,1,1,X,1,1,1,1,1,0
@@ -266,46 +266,46 @@ Entry ID,Religion Name,Region ID,Date Range,4955,4956,4961,4962,4963,4964,4968,4
 1307,Southern Baptists,1457,1845CE-2022CE,1,0,1,1,1,1,1,1,1,1,X,X,1,1,1,1,1,1,1,X
 1308,Jews and Jewish-Sympathizers in South Arabia,1458,275CE-530CE,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 1349,The Dingxiang Wang Cult,1503,1124CE-1991CE,X,X,1,0,0,X,X,X,X,1,0,0,X,0,1,1,1,0,X,0
-1311,Jehovah's Witnesses,1460,1870CE-2022CE,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1311,Jehovahs Witnesses,1460,1870CE-2022CE,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1357,Encratites,1511,100CE-400CE,1,1,0,0,0,1,X,1,1,1,X,1,1,1,1,1,1,1,X,1
 1335,Congregation of the Oratory,991,1575CE-1700CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0
 1334,No-debt Movement in US Evangelicalism,1018,1980CE-2022CE,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
 1333,Cult of Thecla,1487,150CE-600CE,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1
-1344,Tibetan Nonsectarianism (ris med),1497,1840CE-1920CE,1,1,1,1,1,1,1,1,X,1,1,X,1,1,X,1,1,1,0,0
-1374,The Reformed Church (Early Orthodoxy),1527,1560CE-1620CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
-1371,Twelver Shi'ism in post-revolutionary Iran,1526,1979CE-2022CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1344,Tibetan Nonsectarianism ris med,1497,1840CE-1920CE,1,1,1,1,1,1,1,1,X,1,1,X,1,1,X,1,1,1,0,0
+1374,The Reformed Church Early Orthodoxy,1527,1560CE-1620CE,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1
+1371,Twelver Shiism in post-revolutionary Iran,1526,1979CE-2022CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1348,Disability-focused Christianity for Palestinians,1502,2012CE-2022CE,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,0
 1341,Muslim Students Association of the United States and Canada,1494,1960CE-2022CE,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1
-1386,Liumen (Liu School),1541,1807CE-1950CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,1,X
-1337,Tell Afis (Syria),1488,1200BCE-600BCE,0,1,X,X,X,0,X,1,0,0,0,0,X,0,X,1,1,0,0,0
+1386,Liumen Liu School,1541,1807CE-1950CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,1,X
+1337,Tell Afis Syria,1488,1200BCE-600BCE,0,1,X,X,X,0,X,1,0,0,0,0,X,0,X,1,1,0,0,0
 1404,Religion in Nabataea,1560,300BCE-450CE,1,X,X,X,X,X,1,1,X,X,X,X,X,X,X,1,1,X,X,X
-1300,Enlace de Agentes de Pastoral Indígena (EAPI Network of Indigenous Ministry Agents),1450,1990CE-2022CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X
+1300,Enlace de Agentes de Pastoral Indgena EAPI Network of Indigenous Ministry Agents,1450,1990CE-2022CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X
 1419,Ancient Egyptian Religion in the Early 18th Dynasty,1577,1550BCE-1425BCE,1,1,1,X,X,1,1,1,1,X,X,X,1,1,1,1,1,X,1,1
 1434,Kuna,1589,1912CE-1937CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-1517,Tunisian Women's Associations,341,1936CE-1962CE,1,X,1,1,1,1,1,1,1,1,X,X,1,1,1,1,1,X,1,X
+1517,Tunisian Womens Associations,341,1936CE-1962CE,1,X,1,1,1,1,1,1,1,1,X,X,1,1,1,1,1,X,1,X
 1542,Umbanda,1750,1913CE-2022CE,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1
 1399,Religion in the Mittani Empire,1554,1550BCE-1350BCE,1,X,X,X,X,X,X,1,X,X,1,X,X,X,1,1,1,X,X,X
-1555,Al-Ahbash الأحباش,1764,1970CE-2022CE,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1555,Al-Ahbash ,1764,1970CE-2022CE,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1582,Cult of Bona Dea,132,300BCE-500CE,1,1,1,1,0,1,1,1,X,0,0,X,1,0,1,1,1,1,X,1
 1544,Ukrainian Greek Catholic Church,331,1596CE-2022CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1570,Tamil Muslims,1117,20CE-21CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1574,Household religion at Ur,1328,2000BCE-1800BCE,1,X,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-1529,Byzantine Iconoclasts (726-787 CE),13,720CE-743CE,1,1,1,1,1,1,1,1,1,1,X,X,1,1,1,1,1,1,1,1
+1529,Byzantine Iconoclasts 726-787 CE,13,720CE-743CE,1,1,1,1,1,1,1,1,1,1,X,X,1,1,1,1,1,1,1,1
 1615,Teuchitlan Tradition,1833,300BCE-400CE,1,X,X,X,X,1,X,X,X,X,X,X,1,X,X,X,1,X,X,X
 1626,The Cult of Maritime Hera,1848,800BCE-400BCE,1,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,1,0,0,1
 1653,Homoian Christianity amongst Visigoths,132,341CE-399CE,1,X,1,1,1,1,1,1,1,1,X,0,X,X,1,1,1,1,X,X
-1654,Le Parti du Mouvement de La Nahdha حزب حركة النهضة,1866,1981CE-2023CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-1535,الجمعية الخيرية الإسلامية بمدينة سوق الأربعاء,1724,1921CE-1956CE,1,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,0,0,1
-1708,الإباضية  Al-Ibadia,1909,708CE-2023CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-1737,الإمامية Al_Imamia,1943,661CE-2023CE,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1
-1759,الطريقة الشاذلية = Attarika Achadoulia,1962,1195CE-2023CE,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1654,Le Parti du Mouvement de La Nahdha   ,1866,1981CE-2023CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1535,     ,1724,1921CE-1956CE,1,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,0,0,1
+1708,  Al-Ibadia,1909,708CE-2023CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1737, AlImamia,1943,661CE-2023CE,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1
+1759,   Attarika Achadoulia,1962,1195CE-2023CE,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 1607,Zaydism and the state in Yemen,1822,897CE-1700CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X
-1709,Almohads (al-Muwaḥḥidūn),1910,1115CE-1269CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-1791,الطريقة القادرية في بغداد: فترة التأسيس ق12 Attarika Al Qadiria à Bagdad: la période fondatrice le XIIe siècle,1985,1100CE-1200CE,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+1709,Almohads al-Muwaidn,1910,1115CE-1269CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1791,      12 Attarika Al Qadiria  Bagdad la priode fondatrice le XIIe sicle,1985,1100CE-1200CE,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
 685,Badjau,908,1940CE-1966CE,X,X,X,X,X,X,X,X,X,1,X,X,X,X,1,1,X,X,X,X
 625,Copper Inuit,858,1890CE-1915CE,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 671,Mbau Fijians,895,1820CE-1840CE,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
-883,Catholics in the People's Republic of China (PRC),809,1949CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X
+883,Catholics in the Peoples Republic of China PRC,809,1949CE-2020CE,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,X,X,X
 1227,Polytheistic Pre-Islamic South Arabia,1376,800BCE-360CE,X,1,X,X,1,X,1,X,X,X,X,X,X,1,1,1,0,X,1,X
 1251,Tsonga,1397,1880CE-1910CE,1,1,1,1,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 1183,Religion at Nippur in the Ur III period,1328,2100BCE-2000BCE,1,X,X,X,X,1,1,X,1,X,X,X,1,1,0,1,X,X,X,X
