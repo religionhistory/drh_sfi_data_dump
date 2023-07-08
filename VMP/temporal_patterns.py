@@ -1,3 +1,5 @@
+# do it by question
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -24,16 +26,21 @@ Oceania-Australia
 North America
 '''
 
-world_region='Southwest Asia' 
-world_region='Europe' 
-world_region='Africa'
-df_sub=df_aggregated[df_aggregated['World Region'] == world_region]
+def plot_region(df, world_region):
+    
 
-fig, ax = plt.subplots()
-sns.lineplot(x=df_sub['Date'],
-             y=df_sub['Answer values'],
-             data=df_sub)
-plt.show();
+    df_sub=df[df['World Region'] == world_region]
+    fig, ax = plt.subplots()
+    sns.lineplot(x=df_sub['Date'],
+                y=df_sub['Answer values'],
+                data=df_sub)
+    plt.show();
+    
+plot_region(df_aggregated, 'Southwest Asia')
+plot_region(df_aggregated, 'Europe')
+plot_region(df_aggregated, 'Africa')
+plot_region(df_aggregated, 'East Asia')
+plot_region(df_aggregated, 'South America') # interpolates, clearly..
 
 # what if we only care about time 
 df_aggregated=df_aggregated[['Entry ID', 'Date', 'Answer values']].drop_duplicates()
