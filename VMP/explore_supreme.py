@@ -37,7 +37,7 @@ g = sns.FacetGrid(df, col="Question", col_wrap=3, sharey=False, height=4)
 g.map(sns.pointplot, 'bin_log_sq_km', 'Answers', order=None, scale=2)
 g.set_titles("{col_name}", size=10)
 g.set_xticklabels(rotation=45)
-plt.show()
+plt.savefig('fig/supreme_area_start.png')
 
 ## this is totally wrong 
 

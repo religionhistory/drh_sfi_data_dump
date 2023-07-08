@@ -20,7 +20,7 @@ df['Answers']=df['Answers'].astype(int)
 # knowledge of this world
 # communicates with the living
 df[['Question ID','Question']].drop_duplicates()
-df_sub=df[df['Question ID'] == 4836]
+df_sub=df[df['Question ID'] == 4836] # unquestionably good
 
 # fit the model
 with pm.Model() as model:
@@ -82,7 +82,24 @@ az.plot_trace(idata);
 az.summary(idata) # space significant, time tending--but not significant
 
 
+''' 
+how do we transition from reputation ...
 
-def invlogit(x):
-    return 1 / (1 + np.exp(-x))
-invlogit(-1.5+0.7) # 
+
+'''
+
+# fit the model
+with pm.Model() as model_time:
+    beta0 = pm.Normal('intercept', 0, 5)
+    beta1 = pm.Normal('mu', 0, 5)
+    mu = beta0 + beta1 * df_sub['start_year_norm'].values
+    pm.Bernoulli('obs', p = pm.invlogit(mu), observed = df_sub['Answers'].values)
+    idata = pm.sample(2000)
+
+# check the trace
+az.plot_trace(idata);
+
+# check the summary data
+az.summary(idata)
+### interpretation here ###
+#
