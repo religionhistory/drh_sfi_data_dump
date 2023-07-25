@@ -151,7 +151,7 @@ print('MSE training set', round(mse_train, 2)) # 4: still huge
 plt.plot(y_train, pred_train, 'o')
 plt.xlabel('y_true')
 plt.ylabel('y_pred')
-plt.savefig('fig/y_true_y_pred_control_time.png',
+plt.savefig('fig/y_true_y_pred_control_time_conditional.png',
             dpi=300)
 ## plot and save coefficients 
 coef=reg.coef_
