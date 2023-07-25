@@ -28,7 +28,8 @@ sns.regplot(x='start_year', y='log_sq_km', data=df_sqkm_year)
 # bin this in time and do rough plot
 # we can do this prettier definitely 
 # make this nice in the morning
-df['binned']=pd.cut(df['start_year'], bins=6)
+df['binned_start_year']=pd.cut(df['start_year'], bins=6)
+
 
 #### correlations against space #####
 ## each of these should be a boxplot actually

@@ -1,7 +1,6 @@
 from kml_size import extract_polygons, calculate_area
 import pandas as pd 
 import numpy as np
-import itertools
 
 # first load the new data
 df=pd.read_csv('../supreme_high_gods.csv')
